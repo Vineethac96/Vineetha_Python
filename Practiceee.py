@@ -1,4 +1,5 @@
 name = "Vineetha"
+name1="Manoj"
 # print(name)
 # print(name.__doc__)
 
