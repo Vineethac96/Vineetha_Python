@@ -13,7 +13,6 @@ pipeline {
                 echo 'Test success'
             }
         }
-          stage('Deploy')
         
     }
 
