@@ -14,5 +14,13 @@ pipeline {
                 echo "Hello, ${PERSON}, nice to meet you."
             }
         }
+      stage('build another pipelinr')
+     {
+      steps {
+                build job: 'pipeline1', parameters: [
+                string(name: 'param1', value: "value1")
+                ]
+     }
+
     }
 }
